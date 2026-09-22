@@ -1,0 +1,14 @@
+﻿{
+  "name": "\u8bfe\u5802\u8868\u60c5\u5206\u6790\u7cfb\u7edf",
+  "short_name": "\u8bfe\u5802\u5206\u6790",
+  "description": "\u591a\u6a21\u6001\u8bfe\u5802\u8868\u60c5\u8bc6\u522b\u4e0e\u5b66\u60c5\u5206\u6790",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#16233a",
+  "theme_color": "#16233a",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "/static/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/static/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

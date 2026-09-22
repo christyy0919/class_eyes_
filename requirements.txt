@@ -1,0 +1,18 @@
+torch>=1.8.0
+torchvision>=0.9.0
+numpy>=1.19.0
+Pillow>=8.0.0
+matplotlib>=3.3.0
+seaborn>=0.11.0
+scikit-learn>=0.24.0
+tqdm>=4.50.0
+pandas>=1.2.0
+openpyxl>=3.0.0
+opencv-python>=4.5.0
+tensorboardX>=2.1
+prefetch-generator>=1.0.1
+# 俯视透视数据增强（Perspective Augmentation）依赖
+# 用 A.Lambda 注入方向性 OpenCV 透视变换，模拟教室天花板俯视摄像头
+# 安装: pip install albumentations>=1.3.0   (已验证 2.0.8 可用)
+albumentations>=1.3.0
+flask>=2.0.0
